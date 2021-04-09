@@ -1,0 +1,61 @@
+.container {
+
+    background-color: $darkBlue;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+    margin: 0.5625rem 1.5625rem;
+    padding: 2.125rem;
+
+    border-radius: 1rem;
+
+    font-size: $font-reg;
+
+    &__message {
+        
+        
+    }
+
+    &__levelBG {
+        height: 1rem;
+        width: 16.375rem;
+
+        margin: 1rem 0;
+
+        background-color: $veryDarkBlue;
+        border-radius: 1rem;
+    }
+
+    &__levelLine {
+        height: 0.8rem;
+        width: 12.1875rem;
+        background-image: linear-gradient($gradient1, $gradient2);
+        border-radius: 1rem;
+        margin-top: 0.1rem;
+        margin-left: 0.1rem;
+    }
+
+    &__levelCircle {
+        height: 0.625rem;
+        width: 0.625rem;
+
+        background-color: white;
+
+        margin-top: 0.1rem;
+        margin-left: 11.45rem;
+
+        border-radius: 50%;
+    }
+
+    &__limit1 {
+    
+    }
+
+    &__limit2 {
+
+    }
+}
