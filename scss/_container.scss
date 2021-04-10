@@ -15,8 +15,11 @@
 
     font-size: $font-reg;
 
+    @include breakpoint-up(medium) {
+        flex-wrap: nowrap;
+    }
+
     &__message {
-        
         
     }
 
@@ -52,7 +55,7 @@
     }
 
     &__limit1 {
-    
+        
     }
 
     &__limit2 {
